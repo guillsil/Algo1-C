@@ -1,0 +1,14 @@
+Resumen:
+
+Si creo la variable o recibo por valor:
+Ej: int var;
+
+var -> valor
+&var -> referencia
+
+
+Si recibo la variable por referencia
+Ej: int* var;
+
+*var -> valor
+&(*var) == var -> referencia

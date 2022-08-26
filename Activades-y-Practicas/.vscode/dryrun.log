@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/guille/Escritorio/Algo_1/Activades-y-Practicas'
+make: Leaving directory '/home/guille/Escritorio/Algo_1/Activades-y-Practicas'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
