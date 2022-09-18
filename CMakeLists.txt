@@ -1,0 +1,267 @@
+cmake_minimum_required(VERSION 3.22)
+project(Algo1C C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(Activades-y-Practicas/07_-_clase_19-04-2022_structs_y_bibliotecas)
+include_directories(Activades-y-Practicas/08_-_clase_21-04-2022_structs_y_bibliotecas/Presencial)
+include_directories(Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/virtual)
+include_directories(tp3_-_multiverso_de_los_papeleos)
+include_directories(tp3_-_multiverso_de_los_papeleos/__MACOSX)
+include_directories(tp3_-_multiverso_de_los_papeleos/__MACOSX/tp3_-_multiverso_de_los_papeleos)
+include_directories(tp3_-_multiverso_de_los_papeleos/__MACOSX/tp3_-_multiverso_de_los_papeleos/controlador)
+include_directories(tp3_-_multiverso_de_los_papeleos/__MACOSX/tp3_-_multiverso_de_los_papeleos/utiles)
+include_directories(tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos)
+include_directories(tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos/controlador)
+include_directories("tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos/controlador/64 bits")
+include_directories(tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos/utiles)
+include_directories(TPER/TP3-ALGORITMOS-FIUBA-master)
+include_directories(TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master)
+include_directories(TPS_ALGO_1/TP2)
+include_directories(TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche)
+include_directories("TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/32 bits")
+include_directories("TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/64 bits")
+include_directories("TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/Mac Intel")
+include_directories("TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/Mac M1")
+include_directories(TPS_ALGO_1/TP2/zip)
+include_directories(TPS_ALGO_1/TP3)
+include_directories(TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master)
+include_directories(TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master)
+include_directories(TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main)
+include_directories(TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master)
+include_directories(TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master)
+include_directories(TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master)
+include_directories(TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main)
+include_directories(TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master)
+
+add_executable(Algo1C
+        Activades-y-Practicas/02_-_clase_29-03-2022_estructuras_de_control/mi_primer_programa.c
+        Activades-y-Practicas/02_-_clase_29-03-2022_estructuras_de_control/mi_segundo_programa.c
+        Activades-y-Practicas/03_-_clase_31-03-2022_estructuras_de_control/ej1.c
+        Activades-y-Practicas/03_-_clase_31-03-2022_estructuras_de_control/Ej2.c
+        Activades-y-Practicas/03_-_clase_31-03-2022_estructuras_de_control/Ej3.c
+        Activades-y-Practicas/04_-_clase_05-04-2022_funciones_y_procedimientos/funciones.c
+        Activades-y-Practicas/04_-_clase_05-04-2022_funciones_y_procedimientos/intercambiar_piola.c
+        Activades-y-Practicas/04_-_clase_05-04-2022_funciones_y_procedimientos/intercambiar_rancio.c
+        Activades-y-Practicas/04_-_clase_05-04-2022_funciones_y_procedimientos/scanf.c
+        Activades-y-Practicas/04_-_clase_05-04-2022_funciones_y_procedimientos/scanf_2.c
+        Activades-y-Practicas/04_-_clase_05-04-2022_funciones_y_procedimientos/scope.c
+        Activades-y-Practicas/05_-_clase_07-04-2022_funciones_y_procedimientos/ejercicio1.c
+        Activades-y-Practicas/05_-_clase_07-04-2022_funciones_y_procedimientos/ejercicio2.c
+        Activades-y-Practicas/06_-_clase_12-04-2022_referencia_y_buenas_practicas/fizzbuzz.c
+        Activades-y-Practicas/06_-_clase_12-04-2022_referencia_y_buenas_practicas/nombres_referencia.c
+        Activades-y-Practicas/06_-_clase_12-04-2022_referencia_y_buenas_practicas/nombres_valor.c
+        Activades-y-Practicas/06_-_clase_12-04-2022_referencia_y_buenas_practicas/ofuscado.c
+        Activades-y-Practicas/07_-_clase_19-04-2022_structs_y_bibliotecas/bibliotecas.c
+        Activades-y-Practicas/07_-_clase_19-04-2022_structs_y_bibliotecas/culculadora.c
+        Activades-y-Practicas/07_-_clase_19-04-2022_structs_y_bibliotecas/culculadora.h
+        Activades-y-Practicas/07_-_clase_19-04-2022_structs_y_bibliotecas/structs.c
+        Activades-y-Practicas/08_-_clase_21-04-2022_structs_y_bibliotecas/Presencial/biblio.c
+        Activades-y-Practicas/08_-_clase_21-04-2022_structs_y_bibliotecas/Presencial/biblio.h
+        Activades-y-Practicas/08_-_clase_21-04-2022_structs_y_bibliotecas/Presencial/cartas.c
+        Activades-y-Practicas/08_-_clase_21-04-2022_structs_y_bibliotecas/Presencial/preguntas.c
+        Activades-y-Practicas/09_-_clase_26-04-2022_vectores_y_matrices/matrices.c
+        Activades-y-Practicas/09_-_clase_26-04-2022_vectores_y_matrices/vectores.c
+        Activades-y-Practicas/10_-_clase_28-04-2022_vectores_y_matrices/presencial/arrays.c
+        Activades-y-Practicas/10_-_clase_28-04-2022_vectores_y_matrices/presencial/sudoku.c
+        Activades-y-Practicas/10_-_clase_28-04-2022_vectores_y_matrices/virtual/ej1-3.c
+        Activades-y-Practicas/10_-_clase_28-04-2022_vectores_y_matrices/virtual/ej1.c
+        Activades-y-Practicas/10_-_clase_28-04-2022_vectores_y_matrices/virtual/ej2.c
+        Activades-y-Practicas/11_-_clase_03-05-2022_strings_y_estructuras_anidadas/estructuras.c
+        Activades-y-Practicas/11_-_clase_03-05-2022_strings_y_estructuras_anidadas/strings.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/__MACOSX/._ord_burbujeo.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/__MACOSX/._ord_insercion.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/__MACOSX/._ord_seleccion.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/mis_metodos_de_ordenamiento/bubble_short.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/mis_metodos_de_ordenamiento/inserccion_short.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/mis_metodos_de_ordenamiento/selecion.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/hechos_en_clase.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/insercion_ordenada.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/ord_burbujeo.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/ord_insercion.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/ord_seleccion.c
+        Activades-y-Practicas/13_-_clase_10-05-2022_ordenamiento/ordenamiento_por_mas_de_un_campo.c
+        Activades-y-Practicas/14_-_clase_12-05-2022_ordenamiento/inicializar_ingredientes.c
+        "Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/mis archivos/busqueda_binaria.c"
+        "Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/mis archivos/eliminacion_.c"
+        "Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/mis archivos/factorial_.c"
+        "Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/mis archivos/imprimir_numeros_.c"
+        Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/busqueda_binaria.c
+        Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/busqueda_binaria_recursiva.c
+        Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/eliminacion.c
+        Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/factorial.c
+        Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/imprimir.c
+        Activades-y-Practicas/15_-_clase_17-05-2022_eliminacion_busqueda_binaria_y_recursividad/imprimir_espejo_2.c
+        Activades-y-Practicas/16_-_clase_19-05-2022_eliminacion_busqueda_binaria_y_recursividad/presencial/frutas.c
+        Activades-y-Practicas/16_-_clase_19-05-2022_eliminacion_busqueda_binaria_y_recursividad/presencial/recursividad.c
+        Activades-y-Practicas/16_-_clase_19-05-2022_eliminacion_busqueda_binaria_y_recursividad/virtual/frutas.c
+        Activades-y-Practicas/16_-_clase_19-05-2022_eliminacion_busqueda_binaria_y_recursividad/virtual/recursividad.c
+        Activades-y-Practicas/16_-_clase_19-05-2022_eliminacion_busqueda_binaria_y_recursividad/virtual/tempCodeRunnerFile.c
+        Activades-y-Practicas/17_-_clase_24-05-2022_recursividad_y_operaciones_entre_vectores/diferencia.c
+        Activades-y-Practicas/17_-_clase_24-05-2022_recursividad_y_operaciones_entre_vectores/interseccion.c
+        Activades-y-Practicas/17_-_clase_24-05-2022_recursividad_y_operaciones_entre_vectores/mezcla.c
+        Activades-y-Practicas/17_-_clase_24-05-2022_recursividad_y_operaciones_entre_vectores/operaciones.c
+        Activades-y-Practicas/17_-_clase_24-05-2022_recursividad_y_operaciones_entre_vectores/tempCodeRunnerFile.c
+        Activades-y-Practicas/17_-_clase_24-05-2022_recursividad_y_operaciones_entre_vectores/union.c
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/ej_practica_presencial/ej1.c
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/ej_practica_presencial/pilones.c
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/virtual/est_gen.c
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/virtual/matriz_rec.c
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/virtual/operaciones.c
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/virtual/operaciones.h
+        Activades-y-Practicas/18_-_clase_26-05-2022_recursividad_y_operaciones_entre_vectores/virtual/pilones.c
+        Activades-y-Practicas/20_-_clase_07-06-2022_archivos/argumentos.c
+        Activades-y-Practicas/20_-_clase_07-06-2022_archivos/scanf.c
+        Activades-y-Practicas/20_-_clase_07-06-2022_archivos/trabajando_con_archivos_1.c
+        Activades-y-Practicas/20_-_clase_07-06-2022_archivos/trabajando_con_archivos_2.c
+        Activades-y-Practicas/21_clase_archivos_actividades/presencial/Ejercicio1.c
+        Activades-y-Practicas/21_clase_archivos_actividades/presencial/Ejercicio2.c
+        Activades-y-Practicas/21_clase_archivos_actividades/virtual/Ejercici2.c
+        Activades-y-Practicas/21_clase_archivos_actividades/virtual/Ejericio1.c
+        Activades-y-Practicas/21_clase_archivos_actividades/eje.c
+        Activades-y-Practicas/21_clase_archivos_actividades/eje_2.c
+        Activades-y-Practicas/22_-_clase_09-06-2022_archivos_csv/mio/liberen_a_uga.c
+        Activades-y-Practicas/22_-_clase_09-06-2022_archivos_csv/mio/trabajando_con_csv_1.c
+        Activades-y-Practicas/22_-_clase_09-06-2022_archivos_csv/mio/trabajando_con_csv_2.c
+        Activades-y-Practicas/22_-_clase_09-06-2022_archivos_csv/profe/liberen_a_uga.c
+        Activades-y-Practicas/23_clase_archivos_ejercicios/eje_1.c
+        Activades-y-Practicas/23_clase_archivos_ejercicios/eje_2.c
+        Activades-y-Practicas/repaso_parcial/ej.c
+        Activades-y-Practicas/repaso_parcial/eje_1.c
+        Activades-y-Practicas/repaso_parcial/eje_2.c
+        Activades-y-Practicas/repaso_parcial/tuerquita.c
+        Apuntes_Algo_1/operaciones.c
+        Parciales/23_-_parcial_01-07-2021_1c-2021/23_-_resolucion_parcial_01-07-2021_1c-2021/Parcial/1.c
+        Parciales/23_-_parcial_01-07-2021_1c-2021/23_-_resolucion_parcial_01-07-2021_1c-2021/Parcial/2.c
+        Parciales/23_-_parcial_01-07-2021_1c-2021/23_-_resolucion_parcial_01-07-2021_1c-2021/Parcial/3.c
+        Parciales/23_-_parcial_01-07-2021_1c-2021/23_-_resolucion_parcial_01-07-2021_1c-2021/Parcial/4.c
+        Parciales/23_-_parcial_01-07-2021_1c-2021/23_-_resolucion_parcial_01-07-2021_1c-2021/Parcial/5.c
+        Parciales/resuelto/eje_1.c
+        Parciales/resuelto/eje_2.c
+        Parciales/resuelto/eje_3.c
+        rpl/matrices/eje_1.c
+        rpl/matrices/eje_2.c
+        rpl/matrices/eje_3.c
+        rpl/matrices/eje_4.c
+        rpl/matrices/eje_5.c
+        rpl/matrices/eje_6.c
+        rpl/matrices/eje_7.c
+        rpl/matrices/eje_8.c
+        rpl/matrices/eje_9.c
+        rpl/matrices/tempCodeRunnerFile.c
+        rpl/registros/eje_1.c
+        rpl/registros/eje_2.c
+        rpl/registros/eje_3.c
+        rpl/registros/eje_4.c
+        rpl/registros/eje_5.c
+        rpl/strings/eje_1.c
+        rpl/strings/eje_2.c
+        rpl/strings/eje_3.c
+        rpl/strings/eje_4.c
+        rpl/strings/eje_5.c
+        rpl/strings/eje_6.c
+        rpl/strings/eje_7.c
+        rpl/strings/eje_8.c
+        rpl/vectores/eje_1.c
+        rpl/vectores/eje_10.c
+        rpl/vectores/eje_2.c
+        rpl/vectores/eje_3.c
+        rpl/vectores/eje_4.c
+        rpl/vectores/eje_5.c
+        rpl/vectores/eje_6.c
+        rpl/vectores/eje_7.c
+        rpl/vectores/eje_8.c
+        rpl/vectores/eje_9.c
+        rpl/vectores/tempCodeRunnerFile.c
+        tp3_-_multiverso_de_los_papeleos/__MACOSX/tp3_-_multiverso_de_los_papeleos/controlador/._controlador.h
+        tp3_-_multiverso_de_los_papeleos/__MACOSX/tp3_-_multiverso_de_los_papeleos/utiles/._utiles.h
+        tp3_-_multiverso_de_los_papeleos/__MACOSX/tp3_-_multiverso_de_los_papeleos/._papeleo.h
+        "tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos/controlador/64 bits/controlador.h"
+        tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos/utiles/utiles.h
+        tp3_-_multiverso_de_los_papeleos/tp3_-_multiverso_de_los_papeleos/papeleo.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/cargar_mapa.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/cargar_mapa.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/controlador.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/dia_en_la_uni.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/dia_en_la_uni.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/enums.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/juego.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/movimientos_personaje.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/papeleo.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/papeleo.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/TP3-ALGORITMOS-FIUBA-master/utiles.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/cargar_mapa.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/cargar_mapa.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/controlador.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/dia_en_la_uni.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/dia_en_la_uni.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/enums.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/juego.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/movimientos_personaje.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/papeleo.c
+        TPER/TP3-ALGORITMOS-FIUBA-master/papeleo.h
+        TPER/TP3-ALGORITMOS-FIUBA-master/utiles.h
+        "TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/32 bits/utiles.h"
+        "TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/64 bits/utiles.h"
+        "TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/Mac Intel/utiles.h"
+        "TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/Mac M1/utiles.h"
+        TPS_ALGO_1/TP2/TP2_-_no_ordenaste_tu_papeleo_anoche/papeleo.h
+        TPS_ALGO_1/TP2/zip/juego.c
+        TPS_ALGO_1/TP2/zip/papeleo.c
+        TPS_ALGO_1/TP2/zip/papeleo.h
+        TPS_ALGO_1/TP2/zip/tp1.c
+        TPS_ALGO_1/TP2/zip/tp1.h
+        TPS_ALGO_1/TP2/zip/utiles.h
+        TPS_ALGO_1/TP2/juego.c
+        TPS_ALGO_1/TP2/papeleo.c
+        TPS_ALGO_1/TP2/papeleo.h
+        TPS_ALGO_1/TP2/tp1.c
+        TPS_ALGO_1/TP2/tp1.h
+        TPS_ALGO_1/TP2/utiles.h
+        TPS_ALGO_1/TP3/controlador.h
+        TPS_ALGO_1/TP3/juego.c
+        TPS_ALGO_1/TP3/papeleo.c
+        TPS_ALGO_1/TP3/papeleo.h
+        TPS_ALGO_1/TP3/tp1.c
+        TPS_ALGO_1/TP3/tp1.h
+        TPS_ALGO_1/TP3/tp2.c
+        TPS_ALGO_1/TP3/tp2.h
+        TPS_ALGO_1/TP3/utiles.h
+        TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/juego.c
+        TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.c
+        TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.h
+        TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/comandos.c
+        TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/comandos.h
+        TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/la_sombra_de_mac.c
+        TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/la_sombra_de_mac.h
+        TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/mansion_foster.c
+        TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/juego.c
+        TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.c
+        TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.h
+        TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/utiles.h
+        TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.c
+        TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.h
+        TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/juego.c
+        TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.c
+        TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.h
+        TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/utiles.h
+        TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/juego.c
+        TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.c
+        TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.h
+        TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/utiles.h
+        TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/comandos.c
+        TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/comandos.h
+        TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/la_sombra_de_mac.c
+        TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/la_sombra_de_mac.h
+        TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/mansion_foster.c
+        TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/juego.c
+        TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.c
+        TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.h
+        TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/utiles.h
+        TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.c
+        TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.h
+        TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/juego.c
+        TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.c
+        TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.h
+        TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/utiles.h
+        TPS_ALGO_1/rotar_matriz.c)

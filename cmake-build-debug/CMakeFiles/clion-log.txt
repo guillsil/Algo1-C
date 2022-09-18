@@ -1,0 +1,19 @@
+"C:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\Andres\OneDrive\Documentos\Algo1C -B C:\Users\Andres\OneDrive\Documentos\Algo1C\cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+CMake Error at CMakeLists.txt:37 (add_executable):
+  Cannot find source file:
+
+    TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/juego.c;TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.c;TPS_ALGO_1/tps..]_/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.h;TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/comandos.c;TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/comandos.h;TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/la_sombra_de_mac.c;TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/la_sombra_de_mac.h;TPS_ALGO_1/tps..]_/Algo1-TP3-2C2021-master/mansion_foster.c;TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/juego.c;TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.c;TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.h;TPS_ALGO_1/tps..]_/Algo1mendez-Tp2-2c2021-main/utiles.h;TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.c;TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.h;TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/juego.c;TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.c;TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.h;TPS_ALGO_1/tps..]_/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/utiles.h;TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/juego.c;TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.c;TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/la_sombra_de_mac.h;TPS_ALGO_1/tps.._/Algo1-TP2-2C2021-master/Algo1-TP2-2C2021-master/utiles.h;TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/comandos.c;TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/comandos.h;TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/la_sombra_de_mac.c;TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/la_sombra_de_mac.h;TPS_ALGO_1/tps.._/Algo1-TP3-2C2021-master/mansion_foster.c;TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/juego.c;TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.c;TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/la_sombra_de_mac.h;TPS_ALGO_1/tps.._/Algo1mendez-Tp2-2c2021-main/utiles.h;TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.c;TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/dia_en_la_uni.h;TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/juego.c;TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.c;TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/papeleo.h;TPS_ALGO_1/tps.._/TP2-ALGORITMOS-FIUBA-master/TP2-ALGORITMOS-FIUBA-master/utiles.h;TPS_ALGO_1/rotar_matriz.c
+
+
+CMake Error at CMakeLists.txt:37 (add_executable):
+  No SOURCES given to target: Algo1C
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
